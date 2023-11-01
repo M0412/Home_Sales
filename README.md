@@ -39,6 +39,11 @@
 - Partition by the "date_built" field on the formatted parquet home sales data.
 - Create a temporary table for the parquet data.
 - Run the query that filters out the view ratings with an average price of greater than or equal to $350,000 and determine the runtime and compare it to uncached runtime.
+
+<p align="center">
+  <img src="images/runtime3.png" alt="images" width="600"/>
+</p>
+
 - Uncache the home_sales temporary table.
 - Verify that the home_sales temporary table is uncached using PySpark.
 
